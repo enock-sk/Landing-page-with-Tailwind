@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+    <main class="bg-black text-white">
+        <!--navbar-->
+        <header class="sticky top-0 right-0 left-0 z-1000 bg-black">
+          <nav class="flex justify-between items-center py-2 px-6">
+            <!--logo text-->
+            <div class="flex items-center">
+              <span class="w-4 h-4 bg-blue-400 block rounded-lg"></span>
+              <div class="ml-2 text-3xl font-bold text-yellow-400">DownNot</div>
+            </div>
+            <!-- menu items -->
+            <div class="text-gray-400 max-md:hidden">
+              <a href="http://" target="_blank" rel="noopener noreferrer" class="mx-3 hover:text-gray-200 underline underline-offset-8 decoration-pink-600 hover:no-underline">Home</a>
+              <a href="http://" target="_blank" rel="noopener noreferrer" class="mx-3 hover:text-gray-200">About</a>
+              <a href="http://" target="_blank" rel="noopener noreferrer" class="mx-3 hover:text-gray-200">Blog</a>
+              <a href="http://" target="_blank" rel="noopener noreferrer" class="mx-3 hover:text-gray-200">Socials</a>
+            </div>
+            <!-- login btn -->
+            <div class="max-md:hidden">
+              <a href="http://" target="_blank" rel="noopener noreferrer" class="mr-4 py-2 px-3 rounded-lg shadow-sm shadow-yellow-400 bg-yellow-400 text-gray-900 hover:text-gray-400 hover:bg-yellow-300">Login</a>
+            </div>
+            <!-- menu hamburger -->
+            <div class="hidden max-md:block">
+              <span class="w-4 h-1 bg-pink-600 block mb-2"></span>
+              <span class="w-8 h-1 bg-pink-600 block mb-2"> </span>
+              <span class="w-5 h-1 bg-pink-600 block"></span>
+            </div>
+          </nav>
+        </header>
+        <!-- hero section -->
+        <section class="h-screen flex items-center max-md:flex-col max-md:mt-10">
+          <!-- hero-text -->
+          <div class="w-full px-4 py-4 mb-6">
+            <h1 class="capitalize text-7xl max-md:text-5xl text-blue-400 font-semibold mb-10">Have a donut in<br> DowNot</h1>
+            <p class="text-lg max-md:text-base mb-4 text-gray-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum iusto nihil, illo dicta molestias optio distinctio perspiciatis cumque, perferendis, esse non debitis dolorem quam laudantium cum quis repudiandae eaque vitae?</p>
+            <p class="text-yellow-400 max-md:text-sm mb-6">Buy more and get more today.</p>
+            <button class="px-6 py-2 rounded-full shadow-sm shadow-pink-400 bg-pink-600 hover:bg-pink-500">Find More</button>
+          </div>
+          <!-- hero image -->
+          <div class="w-full overflow-hidden h-3/4 flex items-center">
+            <img src="https://images.unsplash.com/photo-1515208104371-33f379f845a4?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMGRvbnV0fGVufDB8fDB8fHww" alt="" class="contrast-150 object-center w-full">
+            </div>
+        </section>
+      </main>
+      
+</body>
+</html>
